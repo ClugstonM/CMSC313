@@ -1,6 +1,7 @@
-Michael Clugston
-UMBC CMSC313@1430 mon/wed
-HW#8
+Michael Clugston  
+UMBC  
+CMSC313@1430 mon/wed  
+HW#8  
 
 This subdirectory contains files for a matrix library in both c and c++
 
@@ -15,10 +16,10 @@ This subdirectory contains files for a matrix library in both c and c++
 
 
 To build using the makefile: 
-- 'make matrixTest' will create the runnable matrixTest from c++ code (matrix.h, matrix.cpp, test.cpp)
-- 'make matrix.o' to create just the matrix.o dependency
-- 'make matrixTestC' will create the runnable matrixTestC from c code (matrixC.h, matrixC.c, testC.c)
-- 'make matrixC.o' to create just the matrixC.o dependency
+- 'make matrixTest' will create the executable matrixTest from c++ code (matrix.h, matrix.cpp, test.cpp)
+- 'make matrix.o' will create only the matrix.o dependency
+- 'make matrixTestC' will create the executable matrixTestC from c code (matrixC.h, matrixC.c, testC.c)
+- 'make matrixC.o' will create only the matrixC.o dependency
 
 
 Unit testing of every function ensures they operate as intended

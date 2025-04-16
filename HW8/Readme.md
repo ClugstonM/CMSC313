@@ -23,4 +23,4 @@ To build using the makefile:
 
 
 The c++ implementation uses a Matrix class with a 2D vector of integers and two integers for rows and columns as members. It makes use of overloaded operators for many of its behaviors.  
-The c implementation exclusively uses functions that operate on a large 1D dynamically allocated integer array of size rows * columns and take two integers for the rows and columns of the corresponding matrix. The functions handle memory allocation, but remembering the dimensions of the matrix and memory deallocation are both expected to be handled by the user.
+The c implementation exclusively uses functions that operate on a large 1D dynamically allocated integer array of size rows * columns and take two integers for the rows and columns of the corresponding matrix. The functions handle memory allocation and indexing, but remembering the dimensions of the matrix and memory deallocation are both expected to be handled by the user.

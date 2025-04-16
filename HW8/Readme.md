@@ -1,4 +1,6 @@
-Author: Michael Clugston
+Michael Clugston
+UMBC CMSC313@1430 mon/wed
+HW#8
 
 This subdirectory contains files for a matrix library in both c and c++
 

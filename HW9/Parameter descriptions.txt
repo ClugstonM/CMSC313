@@ -1,0 +1,9 @@
+The nasm command assembles a specified file in nasm assembly and outputs the corresponding object file. 
+'-f elf32' enforces 32-bit architecture
+'-g' generates debug information
+'-F dwarf' specifies the format of the debug information
+'-o [output name]' specifies the name of the outputted object file
+
+The ld command is the final step of compiling a program. It links object files and creates an executable.
+'-m elf_i386' specifies the emulation linker, which itself specifies the format of the executable
+'-o [output name]' specifies the name of the outputted executable file

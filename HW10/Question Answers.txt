@@ -1,0 +1,7 @@
+What is the difference between the gdb commands “n” and “s”?
+'n' (next) steps to the next statement, stepping over subroutines. This means that it will execute all of the code resulting from that single line of code. For instance, if that line is a function call, it will execute the entire function.
+'s' (step) steps to the next statement, stepping into subroutines. This means it will only execute exactly one line of code. For instance, if it that line is a function call, it will enter the function, and further uses of 's' will progress line-by-line through the function.
+
+In the nasm command, what are the ‘-g -F dwarf’ parameters used for?
+'-g' tells the compiler to generate debugging info, rather than discard it as usual.
+'-F [format]' selects the specific format of the debugging information, 'dwarf' in this case.
